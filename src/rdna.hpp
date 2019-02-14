@@ -9,9 +9,9 @@ string randDNA(int seed,string bases,int n)
 	mt19937 eng1(seed);		//Random generator to accept seed from variable seed 
 	string seq;					//DNA sequence variable
 	
-	if (bases.size()==0)
+	if (bases.size()==0)	//Perform check for blank variable
 	{
-		seq = "";
+		seq = "";			//Assign blank variable for randomisation
 		return seq;
 	}
 	
